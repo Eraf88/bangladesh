@@ -176,3 +176,68 @@
 .card-1 p{
     color: #7C7C7C;
 }
+
+.quote-section{
+    margin-top: 30px;
+    /* padding: 30px 48px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.change{
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
+    padding: 30px 30px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+}
+ .opinion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px;
+  }
+  
+  .opinion-color {
+    background-color: #C6E4D6;
+  }
+  
+  .opinion h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: start;
+  }
+  
+  .opinion table {
+    width: 100%;
+     max-width: 100%; 
+    /* margin: 0 auto; */
+    border-collapse: collapse;
+  
+  }
+  
+  .opinion table td,
+  .opinion table th {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .opinion select {
+  
+    background-color: #C6E4D6;
+  
+  }
+  
+  .opinion select option {
+    background-color: #C6E4D6;
+  }
