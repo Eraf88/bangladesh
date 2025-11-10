@@ -240,4 +240,91 @@
   
   .opinion select option {
     background-color: #C6E4D6;
+    padding: 14px 10px;
+    height: 44px;
+  }
+
+  .agree-box{
+    /* width: 152px; */
+    /* text-align: center; */
+    padding: 10px;
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .news-section{
+    margin-top: 30px;
+  }
+
+  .news-section h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .news-section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #7C7C7C;
+  }
+
+  .news-section-text{
+    line-height: 1.5rem;
+  }
+
+  .card-news{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: row; */
+    padding: 30px;
+    /* max-width: 900px;
+    margin: 30px auto; */
+    border: 1px none;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* .card-news-satelite{
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .source img{
+    width: 100px;
+    object-fit: contain;
+  }
+
+  .card-time{
+    display: flex;
+    gap: 5px;
+  } */
+
+  .btn{
+    background-color: #006A50;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #fff;
+    /* margin-top: 5px; */
+    border: none;
+  }
+
+  .source img{
+    border-radius: 8px;
+  }
+
+  .card-news-reverse{
+    flex-direction: row-reverse;
   }
