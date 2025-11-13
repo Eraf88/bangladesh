@@ -328,3 +328,131 @@
   .card-news-reverse{
     flex-direction: row-reverse;
   }
+
+  .donate{
+    text-align: center;
+    padding: 50px 20px;
+    /* background: #e8f5e9; */
+  }
+
+  .donate h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .donate .d-button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .d-button{
+    margin-top: 34px;
+  }
+
+  .donation-button{
+    display: inline-block;
+    width: 240px;
+    height: 128px;
+    padding: 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+   .donation-button:hover{
+    background-color: #C6E4D6;
+    color: black;
+   }
+ .fixed-color{
+    background-color: #C6E4D6;
+    color: black;
+ }
+
+ .input{
+  padding: 40px 20px;
+  width: 1032px;
+  height: 64px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  color: #0E0E0E;
+}
+
+.d-btn{
+  margin-top: 32px;
+  background-color: #006A50;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  /* margin-top: 5px; */
+  border: none;
+}
+
+.newsletter{
+  padding: 100px 80px;
+  text-align: center;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+.newsletter-head{
+  font-weight: bold;
+}
+
+.newsletter-p{
+  margin: 10px;
+}
+
+.newsletter-input{
+  flex: 1;
+  padding: 20px 20px;
+  height: 30px;
+  width: 600px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  border: none;
+  outline: none;
+}
+
+.newsletter-btn{
+  background-color: #006A50;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  width: 120px;
+  height: 50px;
+}
+
+.newsletter p{
+  margin-top: 20px;
+}
+
+.footer{
+  background-color: #FFFFFF;
+  margin-top: 80px;
+  align-items: center;
+  text-align: center;
+}
+
+/* .bar {
+  background: black;
+  border-radius: 999px;
+  height: 0.5px;
+  width: 1122px;
+ align-items: center;
+} */
+
+.footer-image{
+  margin-top: 32px;
+  /* display: flex; */
+}
